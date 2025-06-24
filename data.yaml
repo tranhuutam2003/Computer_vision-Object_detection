@@ -1,0 +1,11 @@
+# đường gốc
+path: E:/Kztech/Computer_vision & Object_detection/dataset
+
+# thư mục con tính từ path
+train: motorbike_train/images      # => .../dataset/motorbike_train/images
+val:   valid/images                # => .../dataset/valid/images
+
+# thông tin lớp
+nc: 1
+names:
+  0: license_plate
