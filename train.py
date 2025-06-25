@@ -37,7 +37,7 @@ def generate_train_val(label_csv, image_dir, train_txt, val_txt, val_ratio=0.1, 
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Generate train/val txt for recognition.")
-    parser.add_argument("--csv", default='../demo/rec_plate.csv', help="CSV with filename,label")
+    parser.add_argument("--csv", default='../demo/label.txt', help="CSV with filename,label")
     parser.add_argument("--img_dir", default='../dataset/plate', help="Directory of cropped images")
     parser.add_argument("--train_txt", default="../dataset/plate/rec/train.txt", help="Output train.txt")
     parser.add_argument("--val_txt", default="../dataset/plate/rec/val.txt", help="Output val.txt")
